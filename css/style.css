@@ -1,10 +1,16 @@
 ul,ol,menu{
     list-style: none;
     padding: 0;
+    
 }
 
 #app{
     height: 100vh;
+}
+
+.ancora{
+    text-decoration: none;
+    color: currentColor;
 }
 
 
@@ -33,13 +39,31 @@ ul,ol,menu{
 /* NAV-BAR MAIN */
 
 aside{
+    color: white;
     background-color:#002436 ;
     background-image: url('../img/sidebar-bg.png');
 }
 
+/* main content */
+.my_badge-code{
+    width: 10px;
+    padding: 5px;
+    aspect-ratio: 1/1;
+    background-color: #ff6257;
+    border-radius: 50%;
+    font-size: 18px;
+    color: white;
+}
+  
+
+
 /* utility */
 .basis{
     flex-basis: 100%;
+}
+
+.my_font-orange{
+    color:#ff6257 ;
 }
 
 
