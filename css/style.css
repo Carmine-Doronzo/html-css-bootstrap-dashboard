@@ -3,8 +3,8 @@ ul,ol,menu{
     padding: 0;
 }
 
-body{
-    max-height: 100vh;
+#app{
+    height: 100vh;
 }
 
 
@@ -14,7 +14,7 @@ body{
 }
 
 .search,.search-bar{
-    width: 97%;
+    width: 90%;
     border: none;
     outline: none;
     background-color: #e4e4e4;
@@ -30,9 +30,23 @@ body{
     width: 45px;
 }
 
+/* NAV-BAR MAIN */
+
+aside{
+    background-color:#002436 ;
+    background-image: url('../img/sidebar-bg.png');
+}
+
+/* utility */
+.basis{
+    flex-basis: 100%;
+}
 
 
-
+/* background color */
+.my_bg-blue{
+    background-color: #0073e1;
+}
 
 
 
