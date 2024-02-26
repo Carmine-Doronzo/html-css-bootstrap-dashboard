@@ -7,6 +7,39 @@ body{
     max-height: 100vh;
 }
 
+
+/* NAV-BAR */
+.nav-bar{
+    background-color: #f8f9fa;
+}
+
+.search,.search-bar{
+    width: 97%;
+    border: none;
+    outline: none;
+    background-color: #e4e4e4;
+}
+
+.search-bar{
+    border-radius: 5px;
+}
+
+
+
+.mobile-logo{
+    width: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
 /* debug */
 .d_bg-blue{
     background-color: blue;
@@ -16,10 +49,10 @@ body{
     background-color: red;
 }
 
-.container-fluid > *{
+.debug .container-fluid > *{
     border: 3px solid black;
 }
 
-.row > *{
+.debug .row > *{
     border: 2px solid blue;
 }
