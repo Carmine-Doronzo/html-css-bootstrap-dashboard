@@ -1,0 +1,25 @@
+ul,ol,menu{
+    list-style: none;
+    padding: 0;
+}
+
+body{
+    max-height: 100vh;
+}
+
+/* debug */
+.d_bg-blue{
+    background-color: blue;
+}
+
+.d_bg-red{
+    background-color: red;
+}
+
+.container-fluid > *{
+    border: 3px solid black;
+}
+
+.row > *{
+    border: 2px solid blue;
+}
