@@ -44,6 +44,11 @@ aside{
     background-image: url('../img/sidebar-bg.png');
 }
 
+.aside-control > *:hover{
+    background-color: lightgray;
+
+}
+
 /* main content */
 .my_badge-code{
     width: 10px;
@@ -54,7 +59,43 @@ aside{
     font-size: 18px;
     color: white;
 }
+
+
+
+.action span{
+    
+    width: 10px;
+    aspect-ratio: 1/1;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+
+}
   
+
+/* new student */
+.intest_new-student::after{
+    content: 'Piano blaze';
+    font-size: 14px;
+    padding: 5px;
+    background-color: #002436;
+    color: white;
+    border-radius: 500px;
+}
+
+.plus{
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.plus:hover{
+    background-color: white;
+    color: black;
+}
+
 
 
 /* utility */
@@ -70,6 +111,9 @@ aside{
 /* background color */
 .my_bg-blue{
     background-color: #0073e1;
+}
+.my-overflow{
+    overflow: scroll;
 }
 
 
