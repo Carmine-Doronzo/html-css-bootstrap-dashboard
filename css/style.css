@@ -126,6 +126,16 @@ aside{
     height: calc(100% - 300px);
 }
 
+/* canvas */
+.offcanvas.offcanvas-end.my-canvas{
+    width: 100%;
+}
+
+@media (min-width:768px){
+    .offcanvas.offcanvas-end.my-canvas{
+        width: 50%;
+    }
+}
 
 /* utility */
 .basis{
