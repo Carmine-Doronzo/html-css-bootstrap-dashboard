@@ -92,22 +92,27 @@ aside{
        
     }
 
-    .card_section{
-        height: calc(100% - 300px);
-    }
+    
 }
 
 .new-student > div{
     padding: 10px 0;
 }
-.intest_new-student::after{
-    content: 'Piano blaze';
-    font-size: 14px;
-    padding: 5px;
-    background-color: #002436;
-    color: white;
-    border-radius: 500px;
+
+.intest_new-student{
+    display: inline;
 }
+
+.badge-student{
+    display: inline;
+    padding: 5px;
+    background-color: #0560b4;
+    border-radius: 500px;
+    font-size: 14px;
+}
+
+
+
 
 .plus{
     padding: 5px;
@@ -125,6 +130,13 @@ aside{
 .card_section{
     height: calc(100% - 300px);
 }
+
+@media (min-width:768px){
+    .card_section{
+        height: calc(100% - 300px);
+    }
+}
+
 
 /* canvas */
 .offcanvas.offcanvas-end.my-canvas{
