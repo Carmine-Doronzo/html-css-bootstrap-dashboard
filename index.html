@@ -12,7 +12,7 @@
 </head>
 
 <body class="debu">
-  <div id="app" class="d-flex flex-column align-items-stretch">
+  <div id="app" class="">
 
     <!-- Nav-bar -->
     <section class="nav-bar">
@@ -72,9 +72,9 @@
     <!-- body of page -->
 
 
-    <div class="container-fluid d-flex  flex-grow-1">
+    <div class="main-content container-fluid d-flex flex-grow-1">
 
-      <div class="row flex-nowrap w-100">
+      <div class="row ">
 
         <!-- aside bar of main -->
 
@@ -103,29 +103,31 @@
 
         <!-- END aside bar of main -->
 
-        <div class="col flex-grow-1  ">
+        <div class="col flex-grow-1 h-100 ">
 
-          <div class="row g-4 ">
+          <div class="row h-100">
             <!-- New student -->
-            <div class="col-12 d-flex my_bg-blue">
+            <div class="new-student col-12 d-flex flex-wrap justify-content-md-between my_bg-blue">
 
-              <div class="col">
+              <div class="col-12 col-md-4">
                 <h1 class="Intest_new-student">Boolean</h1>
               </div>
-              
-              <div class="col">
+
+              <div class="col-12 col-md-4">
                 <p>Studenti online negli ultimi 30 minuti</p>
                 <h3>125</h3>
               </div>
-              
-              <div class="col d-flex">
+
+              <div class="col-12 col-md-4  ">
                 <p>nuovo studente</p>
-                
+
                 <div class="plus">
-                  <a class="ancora" href="#" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" ><i class="fa-solid fa-plus"></i></a>
+                  <a class="ancora" href="#" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"><i class="fa-solid fa-plus"></i></a>
                 </div>
 
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                  aria-labelledby="offcanvasRightLabel">
                   <div class="offcanvas-header">
                     <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -141,13 +143,13 @@
             </div>
             <!-- END New student -->
 
-            <div class="col-12 ">
-              <div class="row flex-wrap">
-                <div class="col-8 ">
+            <div class="col-12 card_section ">
+              <div class="row h-100 my-overflow  ">
+                <div class="col-12 col-lg-8 gy-4">
 
-                  <div class="row gy-4">
+                  <div class="row ">
                     <!-- Next class -->
-                    <div class="col-12">
+                    <div class="col-12 ">
 
                       <div class="card">
 
@@ -160,9 +162,9 @@
                           <table class="table ">
                             <thead>
                               <tr>
-                                <th scope="col" class="w-50">Nome</th>
-                                <th scope="col" class="d-none d-md-inline-block">Data inizio</th>
-                                <th scope="col" class="d-none d-md-inline-block">ROI</th>
+                                <th scope="col" class="w-md-50">Nome</th>
+                                <th scope="col"><span class="d-none d-md-inline">Data inizio</span></th>
+                                <th scope="col"><span class="d-none d-md-inline">ROI</span></th>
                                 <th scope="col">Stato</th>
                                 <th scope="col">Azioni</th>
                               </tr>
@@ -172,15 +174,15 @@
                                 <th scope="row" class=""><span class="my_badge-code"><i
                                       class="fa-solid fa-code"></i></span>
                                   Classe 75</th>
-                                <td class="d-none d-md-inline-block">15 Feb 2021</td>
-                                <td class="d-none d-md-inline-block">20%</td>
+                                <td><span class="d-none d-md-inline">15 Feb 2021</span></td>
+                                <td><span class="d-none d-md-inline">20%</span></td>
                                 <td><span class="badge text-bg-success">Done</span></td>
                                 <td class="action py-3">
-                                
+
                                   <span><i class="fa-solid fa-pencil"></i></span>
-                                
+
                                   <span><i class="fa-solid fa-trash-can"></i></span>
-                                
+
                                 </td>
                               </tr>
                               <tr>
@@ -188,15 +190,15 @@
                                   Classe
                                   76
                                 </th>
-                                <td class="d-none d-md-inline">16 Feb 2021</td>
-                                <td class="d-none d-md-inline">20%</td>
+                                <td><span class="d-none d-md-inline">16 Feb 2021</span></td>
+                                <td><span class="d-none d-md-inline">20%</span></td>
                                 <td><span class="badge text-bg-success">Done</span></td>
                                 <td class="action py-3">
-                                
+
                                   <span><i class="fa-solid fa-pencil"></i></span>
-                                
+
                                   <span><i class="fa-solid fa-trash-can"></i></span>
-                                
+
                                 </td>
                               </tr>
                               <tr>
@@ -204,15 +206,15 @@
                                   Classe
                                   77
                                 </th>>
-                                <td class="d-none d-md-inline">17 Feb 2021</td>
-                                <td class="d-none d-md-inline">20%</td>
+                                <td><span class="d-none d-md-inline">17 Feb 2021</span></td>
+                                <td><span class="d-none d-md-inline">20%</span></td>
                                 <td><span class="badge text-bg-warning">process</span></td>
                                 <td class="action py-3">
-                                
+
                                   <span><i class="fa-solid fa-pencil"></i></span>
-                                
+
                                   <span><i class="fa-solid fa-trash-can"></i></span>
-                                
+
                                 </td>
                               </tr>
                               <tr>
@@ -220,15 +222,15 @@
                                   Classe
                                   78
                                 </th>
-                                <td class="d-none d-md-inline">18 Feb 2021</td>
-                                <td class="d-none d-md-inline">20%</td>
+                                <td><span class="d-none d-md-inline">18 Feb 2021</span></td>
+                                <td><span class="d-none d-md-inline">20%</span></td>
                                 <td><span class="badge text-bg-success">Done</span></td>
                                 <td class="action py-3">
-                                
+
                                   <span><i class="fa-solid fa-pencil"></i></span>
-                                
+
                                   <span><i class="fa-solid fa-trash-can"></i></span>
-                                
+
                                 </td>
                               </tr>
                               <tr>
@@ -236,15 +238,15 @@
                                   Classe
                                   79
                                 </th>
-                                <td class="d-none d-md-inline">19 Feb 2021</td>
-                                <td class="d-none d-md-inline">20%</td>
+                                <td><span class="d-none d-md-inline">19 Feb 2021</span></td>
+                                <td><span class="d-none d-md-inline">20%</span></td>
                                 <td><span class="badge text-bg-danger">Failed</span></td>
                                 <td class="action py-3">
-                                
+
                                   <span><i class="fa-solid fa-pencil"></i></span>
-                                
+
                                   <span><i class="fa-solid fa-trash-can"></i></span>
-                                
+
                                 </td>
                               </tr>
                               <tr>
@@ -252,15 +254,15 @@
                                   Classe
                                   80
                                 </th>
-                                <td class="d-none d-md-inline">20 Feb 2021</td>
-                                <td class="d-none d-md-inline">20%</td>
+                                <td><span class="d-none d-md-inline">20 Feb 2021</span></td>
+                                <td><span class="d-none d-md-inline">20%</span></td>
                                 <td><span class="badge text-bg-success">Done</span></td>
                                 <td class="action py-3">
-                                
+
                                   <span><i class="fa-solid fa-pencil"></i></span>
-                                
+
                                   <span><i class="fa-solid fa-trash-can"></i></span>
-                                
+
                                 </td>
                               </tr>
                               <tr>
@@ -268,15 +270,15 @@
                                   Classe
                                   81
                                 </th>
-                                <td class="d-none d-md-inline">21 Feb 2021</td>
-                                <td class="d-none d-md-inline">20%</td>
+                                <td><span class="d-none d-md-inline">21 Feb 2021</span></td>
+                                <td><span class="d-none d-md-inline">20%</span></td>
                                 <td><span class="badge text-bg-danger">Failed</span></td>
                                 <td class="action py-3">
-                                
+
                                   <span><i class="fa-solid fa-pencil"></i></span>
-                                
+
                                   <span><i class="fa-solid fa-trash-can"></i></span>
-                                
+
                                 </td>
                               </tr>
                               <tr>
@@ -284,15 +286,15 @@
                                   Classe
                                   82
                                 </th>
-                                <td class="d-none d-md-inline">22 Feb 2021</td>
-                                <td class="d-none d-md-inline">20%</td>
+                                <td><span class="d-none d-md-inline">22 Feb 2021</span></td>
+                                <td><span class="d-none d-md-inline">20%</span></td>
                                 <td><span class="badge text-bg-success">Done</span></td>
                                 <td class="action py-3">
-                                
+
                                   <span><i class="fa-solid fa-pencil"></i></span>
-                                
+
                                   <span><i class="fa-solid fa-trash-can"></i></span>
-                                
+
                                 </td>
                               </tr>
 
@@ -305,7 +307,7 @@
 
                     </div>
                     <!-- F.A.Q -->
-                    <div class="col-12">
+                    <div class="col-12 gy-4">
 
                       <div class="card">
 
@@ -367,10 +369,10 @@
 
                 </div>
 
-                <div class="col-4 ">
+                <div class="col-12 col-lg-4 ">
                   <!-- Todo -->
-                  <div class="row g-4">
-                    <div class="col-12  ">
+                  <div class="row">
+                    <div class="col-12 gy-4 ">
 
                       <div class="card">
 

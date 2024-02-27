@@ -6,6 +6,7 @@ ul,ol,menu{
 
 #app{
     height: 100vh;
+    max-height: 100%;
 }
 
 .ancora{
@@ -17,6 +18,7 @@ ul,ol,menu{
 /* NAV-BAR */
 .nav-bar{
     background-color: #f8f9fa;
+    height: 100px;
 }
 
 .search,.search-bar{
@@ -39,6 +41,7 @@ ul,ol,menu{
 /* NAV-BAR MAIN */
 
 aside{
+    
     color: white;
     background-color:#002436 ;
     background-image: url('../img/sidebar-bg.png');
@@ -71,9 +74,32 @@ aside{
     border-radius: 5px;
 
 }
+
+.main-content{
+    height: calc(100% - 100px);
+}
   
 
 /* new student */
+.new-student{
+    height: 300px;
+    color: white;
+}
+
+@media (min-width:768px){
+    .new-student{
+        height: 150px;
+       
+    }
+
+    .card_section{
+        height: calc(100% - 300px);
+    }
+}
+
+.new-student > div{
+    padding: 10px 0;
+}
 .intest_new-student::after{
     content: 'Piano blaze';
     font-size: 14px;
@@ -96,6 +122,9 @@ aside{
     color: black;
 }
 
+.card_section{
+    height: calc(100% - 300px);
+}
 
 
 /* utility */
@@ -113,7 +142,7 @@ aside{
     background-color: #0073e1;
 }
 .my-overflow{
-    overflow: scroll;
+    overflow-y: scroll;
 }
 
 
